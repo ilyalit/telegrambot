@@ -5,10 +5,10 @@ const bot = new TelegramBot(TOKEN)
 // var bodyParser = require('body-parser');
 // app.use(bodyParser.json())
 
-app.post('/' + token, function (req, res) {
-  bot.processUpdate(req.body);
-  res.sendStatus(200);
-})
+// app.post('/' + token, function (req, res) {
+//   bot.processUpdate(req.body);
+//   res.sendStatus(200);
+// })
 
 bot.setWebHook(`https://echo-webhook.herokuapp.com/`+TOKEN)
 
