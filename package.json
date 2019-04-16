@@ -19,6 +19,7 @@
     "express": "^4.13.4",
     "node-telegram-bot-api": "^0.30.0",
     "nodemon": "^1.18.11",
-    "telegraf-calendar-telegram": "^1.5.7"
+    "telegraf-calendar-telegram": "^1.5.7",
+    "jsforce": "1.9.1"
   }
 }
